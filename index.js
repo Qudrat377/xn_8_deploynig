@@ -11,7 +11,7 @@ app.use(cors())
 
 app.get("/", (req, res) => {
   res.status(200).json({
-    message: "Salom bolalar!"
+    message: "Assalomu alaykum ustoz!"
   })
 })
 
